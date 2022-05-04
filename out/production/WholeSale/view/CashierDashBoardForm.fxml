@@ -13,7 +13,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="cashierDashBoardContext" prefHeight="1000.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CashierDashBoardFormController">
+<AnchorPane fx:id="cashierDashBoardContext" prefHeight="1000.0" prefWidth="1420.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CashierDashBoardFormController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f63c9" height="134.0" layoutX="-9.0" layoutY="-9.0" stroke="BLACK" strokeType="OUTSIDE" width="1931.0" />
       <Label layoutX="667.0" layoutY="14.0" text="Yes! We are Open." textFill="#eaff00" textOverrun="CENTER_ELLIPSIS" underline="true">
@@ -31,7 +31,7 @@
             <Font name="System Bold" size="58.0" />
          </font>
       </Label>
-      <AnchorPane layoutY="126.0" prefHeight="875.0" prefWidth="1921.0" style="-fx-background-color: #6ECFEF;">
+      <AnchorPane layoutY="126.0" prefHeight="875.0" prefWidth="1420.0" style="-fx-background-color: #6ECFEF;">
          <children>
             <Label layoutX="58.0" layoutY="28.0" text="Customer Details :-" underline="true">
                <font>

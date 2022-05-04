@@ -13,7 +13,7 @@ public class DbConnection {
         connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/Wholesale",
                 "root",
-                "1234"
+                "zxcvbnm123"
         );
     }
 
