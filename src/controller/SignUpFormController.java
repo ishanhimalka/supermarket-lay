@@ -59,7 +59,7 @@ public class SignUpFormController {
             new Alert(Alert.AlertType.ERROR,"Invalid username.Username must be at least 6-10 characters long ").show();
             return;
         }else if(!txtPassword.getText().matches("^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$")){
-            new Alert(Alert.AlertType.ERROR," password.Password must be at least 8 characters long including A-Z,a-z,0-9").show();
+            new Alert(Alert.AlertType.ERROR," Password must be at least 8 characters long including A-Z,a-z,0-9").show();
             return;
         }else if(!txtConfirmPassword.getText().matches("^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$")){
             new Alert(Alert.AlertType.ERROR,"Invalid password.Password must be at least 8 characters long including A-Z,a-z,0-9").show();
